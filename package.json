@@ -1,0 +1,29 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "description": "1. What is Node.JS ? ( V8 Engine ) \r - NodeJs is a platform , runtime environment\r - NodeJs là một platform giúp dev viết code javascript ở phía server, ngày xưa chúng ta chỉ có thể viết JS \r    ở phía client (browser)\r - NodeJs has V8-Engine (google) => Convert JS to C++ to Assembly language (ngôn ngữ máy tính)\r - Chat-app : SocketIO (Websocket)\r - Web : ExpressJS, EJS\r - Read more ... (later)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-Dat/Learn_NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-Dat/Learn_NodeJs/issues"
+  },
+  "homepage": "https://github.com/V-Dat/Learn_NodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3"
+  }
+}
