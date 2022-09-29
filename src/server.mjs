@@ -1,18 +1,16 @@
-import express from "express"
+import express from "express";
 
-const app = express()
-const port = 3000
+const app = express();
+const port = 8080;
 
-app.get('/', (req, res) => {
-    console.log(app)
-    res.send('Hello World!')
-})
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
-app.get('/info', (req, res) => {
-    res.send(`i'm Kevin! 1`)
-})
-
+app.get("/info", (req, res) => {
+  res.send(`i'm Kevin! 1`);
+});
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+  console.log(`Example app listening on port ${port}`);
+});
